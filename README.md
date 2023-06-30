@@ -19,4 +19,4 @@ Please, for further information, and to see our results, refere to the relative 
 
 
 
-Authors: Dario Authors: [`Dario Avalle`](https://github.com/davalle99), [`Michela Saraceno`](https://github.com/michelasaraceno), [`Francesco Marigioli`](https://github.com/FrancescoMarigioli98). Politecnico di Torino. 
+Authors: [`Dario Avalle`](https://github.com/davalle99), [`Michela Saraceno`](https://github.com/michelasaraceno), [`Francesco Marigioli`](https://github.com/FrancescoMarigioli98). Politecnico di Torino. 

@@ -16,3 +16,7 @@ You can Previously download and compress the dataset using this script: [![Datas
 Next, an example to run our work is available on colab at the following link: [![Dataset download](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13iaHOeUwYgUas3jofnPpXukBllm6fypu#scrollTo=W3tARQvUGkbb)
 
 Please, for further information, and to see our results, refere to the relative [`paper`](path_to_the_paper).
+
+
+
+Authors: Dario Avalle, Michela Saraceno, Francesco Marigioli. Politecnico di Torino. 

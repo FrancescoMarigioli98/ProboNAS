@@ -15,6 +15,25 @@ You can Previously download and compress the dataset using this script: [![Datas
 
 Next, an example to run our work is available on colab at the following link: [![Dataset download](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13iaHOeUwYgUas3jofnPpXukBllm6fypu#scrollTo=W3tARQvUGkbb)
 
+## Pipeline Description
+Our search space is block-based. Thanks to the evaluation metrics, the ProboNAS algorithm can evaluate the networks and proceed with the searching for the best candidate. The architectures extracted by ProboNAS have this structure:
+
+IMAGE
+
+The inner blocks can have two possible configuration:
+1. *MobileNet Block*.
+
+IMAGE
+
+
+2. *ConvNeXt Block*.
+
+IMAGE
+
+
+
+We started with a random population and selected parents for reproduction based on a Tournament selection algorithm. Mutations and crossovers were applied to create diverse individuals. Constraints on FLOPs and parameters were set, and feasible individuals were added to the population. The algorithm identified the top architectures based on evaluation metrics. The best architecture's code was provided at the end, evaluated using training-free metrics.
+
 Please, for further information, and to see our results, refere to the relative [`paper`](path_to_the_paper).
 
 
